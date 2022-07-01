@@ -13,7 +13,6 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0 auto;
-  padding-top: 40px;
 }
 
 .parceiros li {
@@ -27,7 +26,7 @@
 }
 
 .parceiros li:first-child,
-.parceiros li :nth-child(5) {
+.parceiros li:nth-child(5) {
   border-left: none;
 }
 
@@ -35,21 +34,20 @@
   border-top: 2px solid var(--cor-2);
 }
 
-@media(max-width: 800px){
-  .parceiros{
+@media (max-width: 800px) {
+  .parceiros {
     padding-bottom: 60px;
-
   }
-  .parceiros h2{
+  .parceiros h2 {
     margin-bottom: 20px;
   }
-  .parceiros ul{
-    grid-template-columns: repeat(2,1fr);
+  .parceiros ul {
+    grid-template-columns: repeat(2, 1fr);
   }
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--cor-2);
   }
-  .parceiros li :nth-child(odd){
+  .parceiros li:nth-child(odd) {
     border-left: none;
   }
 }
