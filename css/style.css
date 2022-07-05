@@ -37,3 +37,7 @@
 
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
+
+/* Página Orçamento */
+
+@import "./orcamento/orcamento.css";
