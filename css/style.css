@@ -41,3 +41,7 @@
 /* Página Orçamento */
 
 @import "./orcamento/orcamento.css";
+
+/* Animação */
+
+@import "./utilidades/animacao.css";
